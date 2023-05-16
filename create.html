@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE WORLD</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* registerpage */
+
+        body {
+            background: url('img/regimg.jpg') no-repeat center center/cover;
+        }
+
+        .reg {
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 400px;
+            /* border: 1px solid rgb(0, 170, 204); */
+            align-items: center;
+            margin: auto;
+            margin-top: 50px;
+            background-color: rgba(40, 39, 39, 0.3);
+            box-shadow: inset -5px -5px rgba(43, 42, 42, 0.5);
+            border-radius: 25px;
+
+
+        }
+
+        .reg h1 {
+            color: aliceblue;
+            font-size: 2rem;
+            border-bottom: 4px solid rgba(37, 36, 36, 0.5);
+            margin: 50px;
+        }
+
+        .box {
+            padding: 12px;
+            margin: 15px;
+            width: 65%;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            background-color: rgba(45, 44, 44, 0.6);
+            box-shadow: inset -3px -3px rgba(255, 252, 252, 0.5);
+            color: aliceblue;
+            font-size: 1rem;
+        }
+
+        #submit {
+            padding: 10px 20px;
+            margin-top: 30px;
+            width: 50%;
+            background-color: rgba(45, 44, 44, 0.6);
+            box-shadow: inset -3px -3px rgba(255, 252, 252, 0.5);
+            color: aliceblue;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        #submit:hover {
+            cursor: pointer;
+            background-color: rgb(45, 44, 44);
+            color: aliceblue;
+        }
+
+        ::placeholder {
+            color: aliceblue;
+            opacity: 0.7;
+        }
+
+        .tw {
+            color: rgb(31, 31, 164);
+            font-size: 50px;
+            text-decoration: none;
+            display: flex;
+            text-shadow: 4px 4px white;
+
+            align-items: center;
+            justify-content: center;
+
+            font-weight: 800;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html" class="tw" data-text="THE WORLD">THE WORLD</a>
+
+
+
+    </section>
+
+    <form action="" class="reg">
+        <h1>CREATE ACCOUNT</h1>
+        <input type="mail" class="box" placeholder="Enter E-Mail">
+        <input type="text" class="box" placeholder="Enter User Name">
+        <input type="password" class="box" placeholder="Enter Password">
+     
+        <a href="register.html"  id="submit" >Create New Account</a>
+        <a href="register.html"  id="submit">For Log-in</a>
+        
+    </form>
+
+
+</body>
+
+</html>
